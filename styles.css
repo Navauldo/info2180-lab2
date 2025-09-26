@@ -1,0 +1,180 @@
+body {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica
+Neue",Arial,"Noto Sans",sans-serif;
+
+
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #63B3ED;
+    padding-top: 20px;
+    
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center; 
+    margin: 0;  /* Remove default margin */
+    padding: 0;
+    margin-top: 10px;
+}
+
+header p {
+    text-align: center;
+    margin: 0;  /* Remove default margin */
+    padding: 0;
+
+    margin-bottom: 30px;
+}
+
+.blog-title {
+    font-size: 32px;
+    color:  #48BB78;
+    margin-bottom: 0;
+}
+
+.caption {
+    color: #718096 !important;
+    margin: 0;  /* Remove default margin */
+    padding: 0;
+}
+
+.about-title {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif.;
+}
+
+.sidebar-titles {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+.sidebar-titles2 {
+    padding-top: 40px;
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about-section {
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul li {
+    color: #4299E1;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF;
+}
+
+.blog-images {
+    height: 35%;
+    width: 34%;
+    margin-right: 1.3em;
+  }
+
+#header-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+   
+  
+    
+}
+
+.container {
+     display: grid;
+     grid-template-columns: 2fr 1fr;  /* Single column for div1 */
+     grid-template-rows: auto  1fr auto;  /* Auto height for div1 and div4, remaining space for div2 and div3 */
+     gap: 10px; 
+}
+    
+.div1 {
+      grid-column: 1 / 4;
+      grid-row: 1 / 2;
+
+      display: flex;
+      flex-direction: column;  /* Align items in a column */
+      justify-content: center;  /* Vertically center content */
+      align-items: center;  /* Horizontally center content */
+      height: 100%;  /* Take up full height of the viewport */
+      text-align: center
+      
+}
+
+
+.div2 { 
+    grid-column: 1 / 2;   /* Div2 takes the first column */
+    grid-row: 2 / 3; 
+
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.div3 {
+    grid-column: 2 / 3;   /* Div3 takes the second column */
+    grid-row: 2 / 3;
+
+    margin-top: 40px;
+    margin-right: 70px;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+.div4 {
+     grid-column: 1 / 4;
+     grid-row: 4 / 5; 
+   
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+footer p {
+    padding-left: 15%;
+}
+
+#flex-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+#flex-container2 {
+    display: flex;
+    align-items: center;
+}
+
+
+hr {
+    margin: 50px 0 50px 0;
+}
+
+        
